@@ -1,8 +1,8 @@
 #### Step 0. download data
 #setwd("document/") # set your own working directory
-download.file(url = "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip", 
-              destfile = "Smartphones.zip",method = "curl") 
-unzip(zipfile = "Smartphones.zip")
+#download.file(url = "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip", 
+#              destfile = "Smartphones.zip",method = "curl") 
+#unzip(zipfile = "Smartphones.zip")
 
 #### Step 1. Merges the training and the test sets to create one data set
 # extract training data
