@@ -44,7 +44,6 @@ colnames(whole_data)[2:(ncol(whole_data)-1)] <- measurement_names[,2]
 colnames(whole_data)[ncol(whole_data)] <- "activity"
 
 #### Step 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject
-tidy_data <- aggregate(. ~ subject + activity, data = whole_data, mean)
-dim(tidy_data)
+tidy_data <- aggregate(whole_data[,2:(ncol(whole_data)-1)], by = list("subject" = whole_data$subject, "activity" = whole_data$activity), FUN = "mean")
 write.table(tidy_data, "tidy_data.txt", row.name=FALSE) 
 
