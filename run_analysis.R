@@ -1,5 +1,5 @@
 #### Step 0. download data
-setwd("Google 雲端硬碟/Research/Coursera/Getting and Cleaning Data//hw")
+#setwd("document/") # set your own working directory
 download.file(url = "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip", 
               destfile = "Smartphones.zip",method = "curl") 
 unzip(zipfile = "Smartphones.zip")
