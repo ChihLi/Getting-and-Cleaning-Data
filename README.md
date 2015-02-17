@@ -5,7 +5,6 @@ A full description of the raw data set is available at the site where the data w
 
 Please run run_analysis.R by the following instruction:
 
-1. set your working directory in the beginning of this script using "setwd" function, such as "setwd("document/")".
-2. if you've already had the raw data set in your working directory, then skip step 0.
-
-3. run the whole script.
+  1. Set your working directory in the beginning of this script using "setwd" function, such as "setwd("document/")".
+  2. If you've already had the raw data set in your working directory, then skip step 0.
+  3. Run the whole script.
