@@ -13,4 +13,4 @@ What I did is by the following steps:
 In this tidy data, the description of variables are as follows (refer to the website of raw data set):
   1. subject: subjects of this experiment. There are 30 volunteers in the experiment.
   2. activity: activities of six activities wearing a smartphone (Samsung Galaxy S II) on the waist, including "WALKING", "WALKING_UPSTAIRS", "WALKING_DOWNSTAIRS", "SITTING", "STANDING", "LAYING".
-  3. from 3rd variable to 479th variable: 
+  3. from 3rd variable to 563th variable is a 561-feature vector with time and frequency domain variables. 
